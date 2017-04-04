@@ -1,16 +1,16 @@
 [
   {
-    "repository":  "mosimchah/android_device_samsung_exynos5420-common",
+    "repository":  "lineageos/android_device_samsung_exynos5420-common",
     "target_path": "device/samsung/exynos5420-common",
-    "branch":      "n7.1"
+    "branch":      "cm-14.1"
   },
   {
-    "repository":  "mosimchah/android_kernel_samsung_exynos5420",
+    "repository":  "lineageos/android_kernel_samsung_exynos5420",
     "target_path": "kernel/samsung/exynos5420",
-    "branch":      "n7.1"
+    "branch":      "cm-14.1"
   },
   {
-    "repository":  "exynos5420/proprietary_vendor_samsung",
+    "repository":  "TheMuppets/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "branch":      "cm-14.1"
   },

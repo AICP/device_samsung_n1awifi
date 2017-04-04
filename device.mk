@@ -61,6 +61,12 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.universal5420.rc
 
+# ADB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+persist.service.adb.enable=1 \
+persist.service.debuggable=1 \
+persist.sys.usb.config=mtp,adb
+
 # call dalvik heap and hwui config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 
