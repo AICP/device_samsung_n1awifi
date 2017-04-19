@@ -55,3 +55,14 @@ on boot
     chown system radio /sys/class/sec/sec_epen/epen_checksum_result
     chown system radio /sys/class/sec/sec_epen/epen_saving_mode
     chown system radio /sys/class/sec/sec_epen/boost_level
+
+on property:sys.boot_completed=1
+# Kernel tuning
+    write /sys/kernel/sched/gentle_fair_sleepers 0
+    write /sys/devices/platform/mali.0/min_clock 177
+    write /sys/module/lowmemorykiller/parameters/minfree 4096,8192,16384,32768,49152,65536
+    write /proc/sys/vm/dirty_ratio 95
+    write /proc/sys/vm/dirty_background_ratio 85
+    write /proc/sys/vm/dirty_expire_centisecs 10
+    write /proc/sys/vm/dirty_writeback_centisecs 900
+    write /proc/sys/vm/vfs_cache_pressure 5

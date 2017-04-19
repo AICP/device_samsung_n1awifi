@@ -7,3 +7,11 @@ ro.radio.noril=yes
 
 # UI
 ro.sf.lcd_density=320
+
+# Hardware Info
+ro.device.chipset=Samsung Exynos 5420
+ro.device.cpu=Octa-core (4x1.9 GHz ARM Cortex-A15 & 4x1.3 GHz ARM Cortex-A7)
+ro.device.gpu=ARM Mali-T628 MP6
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2.1 MP
+ro.device.screen_res=2560 x 1600
