@@ -32,6 +32,9 @@ TARGET_KERNEL_CONFIG := lineageos_deathly_n1awifi_defconfig
 # IR Blaster
 IR_HAS_ONE_FREQ_RANGE := true
 
+# MHL
+BOARD_USE_LegacyMhl_SUPPORT := true
+
 # Hardware
 BOARD_HARDWARE_CLASS += device/samsung/exynos5420-common/cmhw
 
