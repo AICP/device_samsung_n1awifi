@@ -38,6 +38,9 @@ BOARD_USE_LegacyMhl_SUPPORT := true
 # Hardware
 BOARD_HARDWARE_CLASS += device/samsung/exynos5420-common/cmhw
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Includes
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
