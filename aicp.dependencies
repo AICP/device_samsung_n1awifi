@@ -5,7 +5,7 @@
    "branch":      "cm-14.1"
  },
  {
-   "repository":  "exynos5420/android_kernel_samsung_exynos5420",
+   "repository":  "mosimchah/android_kernel_samsung_exynos5420",
    "target_path": "kernel/samsung/exynos5420",
    "branch":      "cm-14.1"
  },
