@@ -21,4 +21,5 @@
 
     <fraction name="def_window_animation_scale">50%</fraction>
     <fraction name="def_window_transition_scale">50%</fraction>
+    <bool name="def_wifi_on">true</bool>
 </resources>
