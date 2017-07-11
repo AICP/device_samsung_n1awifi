@@ -56,6 +56,9 @@ on boot
     chown system radio /sys/class/sec/sec_epen/epen_saving_mode
     chown system radio /sys/class/sec/sec_epen/boost_level
 
+# Input Boosters
+    write /sys/class/sec/sec_epen/wacom_booster_enabled 0
+
 on property:sys.boot_completed=1
 # Kernel tuning
     write /sys/kernel/sched/gentle_fair_sleepers 0
