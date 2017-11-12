@@ -36,7 +36,7 @@ IR_HAS_ONE_FREQ_RANGE := true
 BOARD_USE_LegacyMhl_SUPPORT := true
 
 # Hardware
-BOARD_HARDWARE_CLASS += device/samsung/exynos5420-common/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/exynos5420-common/lineagehw
 
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
